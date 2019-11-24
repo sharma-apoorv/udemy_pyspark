@@ -30,4 +30,3 @@ sorted_movies_names = sorted_movies.map(lambda x: (movie_name_dict.value[x[1]], 
 result = sorted_movies_names.collect()
 for r in result:
     print(r)
-
